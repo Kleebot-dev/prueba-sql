@@ -44,4 +44,4 @@ Basando en el siguiente escenario: Una pequeña librería necesita una base de d
  - Un cliente puede comprar varios libros en una misma compra.
  - Cada venta es realizada por un empleado.
  - Se necesita almacenar la fecha y el total de cada compra.
-
+ - El entregable debe ser un dump(postgresql) en formato sql.
