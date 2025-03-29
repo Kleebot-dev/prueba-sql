@@ -31,17 +31,21 @@ Basado en la base de datos de los archivos **"schema.sql"** y **"seeder.sql"**, 
 3. Luego por **Nombre del Cliente** en orden ascendente (alfabéticamente).
 4. Luego por **Nombre del Producto** en orden ascendente (alfabéticamente).
 
-# 2. Diseño de Base de Datos
+## 2. Diseño e implementación de tablero en Power BI
+1. Diseñar un **tablero en Power BI** que visualice de forma clara y efectiva la información del reporte generado.
+2. El tablero debe incluir **al menos cuatro visualizaciones** (gráficos, tablas, indicadores, etc.).
+3. El diseño es completamente **libre**, por lo que puedes elegir la distribución, colores y tipos de gráficos que consideres más adecuados para comunicar los datos de manera visual y comprensible.
+
+# 3. Diseño de Base de Datos - Sistema CRM
 
 ## Instrucciones:
-Basando en el siguiente escenario: Una pequeña librería necesita una base de datos para gestionar sus libros, autores y ventas. Debe contener la información de los clientes, los empleados que realizan las ventas y las transacciones efectuadas.
- - Diseña un diagrama entidad-relación.
- - Escribe el script SQL para crear la base de datos con sus respectivas tablas y relaciones.
+Investiga qué es un sistema **CRM (Customer Relationship Management)** y cuáles son sus componentes principales.
+
+Con base en tu investigación:
+
+- Diseña un **diagrama entidad-relación** que represente un CRM básico.
+- Escribe el **script SQL** para crear la base de datos, incluyendo las tablas necesarias y sus relaciones.
 
 ## Requisitos:
- - Cada libro tiene un código único, un título, un año de publicación y un autor.
- - Un autor puede escribir varios libros.
- - Un cliente puede comprar varios libros en una misma compra.
- - Cada venta es realizada por un empleado.
- - Se necesita almacenar la fecha y el total de cada compra.
- - El entregable debe ser un dump(postgresql) en formato sql.
+- El diseño debe cubrir las entidades mínimas que consideres esenciales para un CRM.
+- El entregable debe ser un **archivo .sql** (dump PostgreSQL) con la estructura de la base de datos.
